@@ -1,0 +1,2 @@
+# tmpMalware
+Make simple malware
