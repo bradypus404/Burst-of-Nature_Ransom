@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 winreg = "0.50"
+rsa = "0.9.2"
+num-bigint = "0.4.3"
+rand = "0.8.5"
