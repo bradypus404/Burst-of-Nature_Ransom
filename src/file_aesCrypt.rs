@@ -8,28 +8,31 @@ use aes::cipher::{
 
 fn main() {
     let key = GenericArray::from([0u8; 16]);
-    println!("{:?}",key);
-    let mut input_file = File::open("C:\\Rust\\aes3\\test_aes.txt").expect("Error open file");
+    println!("key : {:?}",key);
+    let block_size = 16; // AES block size in bytes
+
+    let mut input_file = File::open("C:\Users\guswj\OneDrive\바탕 화면\rustCrypt\secret.txt").expect("Error opening file");
+    let mut output_file = File::create("C:\Users\guswj\OneDrive\바탕 화면\rustCrypt\result.txt").expect("Error creating file");
 
     let mut input_data = Vec::new();
-    input_file.read_to_end(&mut input_data).expect("Error read file");
+    input_file.read_to_end(&mut input_data).expect("Error reading file");
+    println!("input_data : {:?}", input_data);
 
-    println!("{:?}", input_data);
-
-    // Initialize cipher
     let cipher = Aes128::new(&key);
-    
-    // Ensure the input_data has the correct length
-    let mut input_data_array = GenericArray::default();
-    let len = input_data.len();
-    assert_eq!(len, input_data_array.len());
-    input_data_array.copy_from_slice(&input_data);
 
-    // Encrypt the data
-    let mut encrypted_data = input_data_array;
-    cipher.encrypt_block(&mut encrypted_data);
-
-    let mut output_file = File::create("C:\\Rust\\aes3\\output.txt").expect("Error create file");
-
-    output_file.write_all(encrypted_data.as_slice()).expect("Error write file");
+    for chunk in input_data.chunks_mut(block_size) {
+        // Ensure each chunk has the correct length (padding if necessary)
+        let padding_len = block_size - chunk.len();
+        if padding_len > 0 {
+            let mut padded_chunk = chunk.to_vec();
+            padded_chunk.extend_from_slice(&vec![0u8; padding_len]);
+            let mut encrypted_data = GenericArray::clone_from_slice(&padded_chunk);
+            cipher.encrypt_block(&mut encrypted_data);
+            output_file.write_all(encrypted_data.as_slice()).expect("Error writing file");
+        } else {
+            let mut encrypted_data = GenericArray::clone_from_slice(chunk);
+            cipher.encrypt_block(&mut encrypted_data);
+            output_file.write_all(encrypted_data.as_slice()).expect("Error writing file");
+        }
+    }
 }
