@@ -1,4 +1,11 @@
 # tmpMalware
 Make simple malware
-## git test
-이것은 git test 입니다.
+
+
+<div align="center">
+
+# Disclaimer
+
+This project is developed for academic purposes. The creators and contributors of this project do not take responsibility for any issues or problems caused by the use of this project.
+
+</div>
