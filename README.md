@@ -3,7 +3,7 @@ Make simple malware
 # Burst of Nature Ransomware
 
 Make simple Ransomware
-<center><img src="/img/myImg.png" width="100" height="100"></center>
+<center><img src="BoN-Mark.png" width="200" height="200"></center>
 
 ## Introduction
 
