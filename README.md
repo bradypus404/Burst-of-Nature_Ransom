@@ -1,9 +1,9 @@
 Make simple malware
 
-<div align="center">
 # Burst of Nature Ransomware
 
-Make simple Ransomware
+BoN created simple loki ransomware.
+<div align="center">
   <img src="BoN-Mark.png" width="200" height="200">
 </div>
 
