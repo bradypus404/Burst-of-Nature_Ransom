@@ -1,9 +1,9 @@
 Make simple malware
 
 <div align="center">
-  # Burst of Nature Ransomware
+# Burst of Nature Ransomware
 
-  Make simple Ransomware
+Make simple Ransomware
   <img src="BoN-Mark.png" width="200" height="200">
 </div>
 
