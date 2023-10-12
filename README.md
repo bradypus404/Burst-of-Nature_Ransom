@@ -1,9 +1,11 @@
 Make simple malware
 
-# Burst of Nature Ransomware
+<div align="center">
+  # Burst of Nature Ransomware
 
-Make simple Ransomware
-<center><img src="BoN-Mark.png" width="200" height="200"></center>
+  Make simple Ransomware
+  <img src="BoN-Mark.png" width="200" height="200">
+</div>
 
 ## Introduction
 
@@ -13,7 +15,6 @@ Burst of Nature Ransomware is a project that explores the functionalities and im
 
 - **Encryption:** Advanced encryption algorithms to lock user files.
 - **Decryption:** Secure decryption process after receiving the ransom.
-- **Payment Interface:** Interface for ransom payment.
 
 ## Usage
 
@@ -33,10 +34,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under [MIT License](LICENSE).
 
-<div align="center">
 
 # Disclaimer
 
 This project is developed for academic purposes. The creators and contributors of this project do not take responsibility for any issues or problems caused by the use of this project.
 
-</div>
+
