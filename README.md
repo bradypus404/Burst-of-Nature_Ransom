@@ -1,11 +1,17 @@
-Make simple malware
-
 # Burst of Nature Ransomware
 
-BoN created simple loki ransomware.
+[![winreg](https://img.shields.io/badge/winreg-0.50-brightgreen)](https://pypi.org/project/winreg)
+[![rsa](https://img.shields.io/badge/rsa-0.9.2-brightgreen)](https://pypi.org/project/rsa)
+[![num-bigint](https://img.shields.io/badge/num--bigint-0.4.3-brightgreen)](https://pypi.org/project/num-bigint)
+[![rand](https://img.shields.io/badge/rand-0.8.5-brightgreen)](https://pypi.org/project/rand)
+[![aes](https://img.shields.io/badge/aes-0.8.3-brightgreen)](https://pypi.org/project/aes)
+[![generic-array](https://img.shields.io/badge/generic--array-0.14.7-brightgreen)](https://pypi.org/project/generic-array)
+
+
 <div align="center">
   <img src="BoN-Mark.png" width="200" height="200">
 </div>
+BoN created simple loki ransomware.
 
 ## Introduction
 
@@ -34,7 +40,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 This project is licensed under [MIT License](LICENSE).
 
 
-# Disclaimer
+## Disclaimer
 
 This project is developed for academic purposes. The creators and contributors of this project do not take responsibility for any issues or problems caused by the use of this project.
 
