@@ -8,7 +8,7 @@
 [![aes](https://img.shields.io/badge/aes-0.8.3-brightgreen)](https://pypi.org/project/aes)
 [![generic-array](https://img.shields.io/badge/generic--array-0.14.7-brightgreen)](https://pypi.org/project/generic-array)
 
-BoN created simple loki ransomware. Brust-of-Nature (BoN) is currently in the process of developing a Loki ransomware with a streamlined yet intricate design.
+BoN created simple loki ransomware. Burst-of-Nature (BoN) is currently in the process of developing a Loki ransomware with a streamlined yet intricate design.
 <div align="center">
   <img src="BoN-Mark.png" width="200" height="200">
 </div>
