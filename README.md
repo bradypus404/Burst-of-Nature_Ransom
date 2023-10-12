@@ -3,7 +3,7 @@ Make simple malware
 # Burst of Nature Ransomware
 
 Make simple Ransomware
-![BoN-Mark](BoN-Mark.png)
+![BoN-Mark](BoN-Mark.png){: width="50%" height="50%"}
 
 ## Introduction
 
