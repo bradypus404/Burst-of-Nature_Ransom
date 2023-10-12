@@ -22,7 +22,6 @@ To run the ransomware, follow these steps:
 
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Run `python ransomware.py`.
 
 **Note:** This project is for educational and research purposes only. Use responsibly and at your own risk.
 
