@@ -1,5 +1,6 @@
 # Burst of Nature Ransomware
 
+[![rust](https://img.shields.io/badge/rust-1.71.0-blue)](https://www.rust-lang.org/)
 [![winreg](https://img.shields.io/badge/winreg-0.50-brightgreen)](https://pypi.org/project/winreg)
 [![rsa](https://img.shields.io/badge/rsa-0.9.2-brightgreen)](https://pypi.org/project/rsa)
 [![num-bigint](https://img.shields.io/badge/num--bigint-0.4.3-brightgreen)](https://pypi.org/project/num-bigint)
